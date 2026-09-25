@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050505">
+<meta name="description" content="SICK — heavyweight monochrome streetwear. Black / white / nothing else.">
+<title>SICK — Feeling Sick?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><span>EST. 2025</span><span>FEELING SICK?</span><span>BLACK / WHITE / NOTHING ELSE</span><span>DROP 01 / LIMITED</span></div>
+<header class="nav" id="siteNav">
+  <button class="hamb" id="menuBtn" aria-label="Open menu" aria-expanded="false"><i></i><i></i><i></i></button>
+  <a class="logo" href="#top" aria-label="SICK home"><img src="assets/logo-sick.png" alt="SICK"></a>
+  <nav class="navlinks" aria-label="Primary navigation"><a href="#shop">SHOP</a><a href="#story">STORY</a><a href="#journal">JOURNAL</a><a href="#napoleon">OUTERWEAR</a></nav>
+  <button class="bag" id="bagBtn" aria-label="Open shopping bag">BAG <span id="bagCount">0</span></button>
+</header>
+<div class="drawer" id="drawer" aria-hidden="true"><a href="#shop">SHOP</a><a href="#story">STORY</a><a href="#journal">JOURNAL</a><a href="#napoleon">OUTERWEAR</a><a href="#about">ABOUT</a></div>
+
+<main id="top">
+<section class="hero" aria-labelledby="heroTitle">
+  <div class="hero-image"><img fetchpriority="high" decoding="async" src="assets/hero-editorial.webp" alt="SICK streetwear editorial campaign"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-copy">
+    <p class="micro">SICK STREETWEAR / DROP 01</p>
+    <h1 id="heroTitle">FEELING<br><span>SICK?</span></h1>
+    <p class="hero-value">HEAVYWEIGHT STREETWEAR.<br>BLACK / WHITE. NOTHING ELSE.</p>
+    <a class="btn" href="#shop">SHOP THE DROP <b>↗</b></a>
+  </div>
+  <div class="hero-meta"><span>01 / 09</span><span>SICK / FEELING SICK?</span></div>
+</section>
+<div class="ticker" aria-label="SICK brand ticker"><div class="ticker-track"><div class="ticker-group"><span>FEELING SICK? &nbsp;•&nbsp; SICK STREETWEAR &nbsp;•&nbsp; BLACK / WHITE &nbsp;•&nbsp; DROP 01 &nbsp;•&nbsp;</span></div><div class="ticker-group" aria-hidden="true"><span>FEELING SICK? &nbsp;•&nbsp; SICK STREETWEAR &nbsp;•&nbsp; BLACK / WHITE &nbsp;•&nbsp; DROP 01 &nbsp;•&nbsp;</span></div><div class="ticker-group" aria-hidden="true"><span>FEELING SICK? &nbsp;•&nbsp; SICK STREETWEAR &nbsp;•&nbsp; BLACK / WHITE &nbsp;•&nbsp; DROP 01 &nbsp;•&nbsp;</span></div><div class="ticker-group" aria-hidden="true"><span>FEELING SICK? &nbsp;•&nbsp; SICK STREETWEAR &nbsp;•&nbsp; BLACK / WHITE &nbsp;•&nbsp; DROP 01 &nbsp;•&nbsp;</span></div></div></div>
+
+<section class="shop" id="shop" aria-labelledby="shopTitle">
+  <div class="head">
+    <div><p class="micro">01 / THE DROP</p><h2 id="shopTitle">BLACKOUT<br><em>SERIES.</em></h2><p class="section-intro">FOUR CORE PIECES. ONE MONOCHROME SYSTEM. BUILT TO BE WORN, NOT JUST SEEN.</p></div>
+    <div class="filters" role="group" aria-label="Filter products"><button class="active" data-filter="all">ALL</button><button data-filter="tee">TEE</button><button data-filter="hoodie">HOODIE</button><button data-filter="goods">GOODS</button></div>
+  </div>
+  <div class="products">
+    <article class="product" data-cat="tee" data-product="SICK Heavyweight Tee">
+      <button class="visual" data-open="tee" aria-label="View SICK Heavyweight Tee"><img loading="lazy" decoding="async" src="assets/tee-front.webp" data-hover="assets/tee-back.webp" alt="SICK Heavyweight Tee front"><span>01 / 04</span><b>+</b></button>
+      <div class="pmeta"><div class="product-line"><h3>SICK HEAVYWEIGHT TEE</h3><strong>IDR 399.000</strong></div><p>330 GSM / RELAXED CUT / BLACK</p><div class="sizes"><span>S</span><span>M</span><span>L</span><span>XL</span></div><button class="add" data-key="tee">ADD TO BAG ↗</button></div>
+    </article>
+    <article class="product" data-cat="hoodie" data-product="SICK Core Hoodie">
+      <button class="visual" data-open="hoodie" aria-label="View SICK Core Hoodie"><img loading="lazy" decoding="async" src="assets/hoodie-front.webp" data-hover="assets/hoodie-back.webp" alt="SICK Core Hoodie front"><span>02 / 04</span><b>+</b></button>
+      <div class="pmeta"><div class="product-line"><h3>SICK CORE HOODIE</h3><strong>IDR 599.000</strong></div><p>HEAVY FLEECE / OVERSIZED / BLACK</p><div class="sizes"><span>S</span><span>M</span><span>L</span><span>XL</span></div><button class="add" data-key="hoodie">ADD TO BAG ↗</button></div>
+    </article>
+    <article class="product" data-cat="goods" data-product="SICK Identity Tags">
+      <button class="visual" data-open="goods" aria-label="View SICK Identity Tags"><img loading="lazy" decoding="async" src="assets/hangtag-detail.webp" alt="SICK Identity Tags"><span>03 / 04</span><b>+</b></button>
+      <div class="pmeta"><div class="product-line"><h3>SICK IDENTITY TAGS</h3><strong>IDR 89.000</strong></div><p>CK MONOGRAM / PAPER GOODS</p><div class="sizes"><span>ONE SIZE</span></div><button class="add" data-key="goods">ADD TO BAG ↗</button></div>
+    </article>
+    <article class="product" data-cat="goods" data-product="SICK Packaging Pack">
+      <button class="visual" data-open="packaging" aria-label="View SICK Packaging Pack"><img loading="lazy" decoding="async" src="assets/packaging-flatlay.webp" alt="SICK Packaging Pack"><span>04 / 04</span><b>+</b></button>
+      <div class="pmeta"><div class="product-line"><h3>SICK PACKAGING PACK</h3><strong>IDR 129.000</strong></div><p>LIMITED PACK / UNBOXING GOODS</p><div class="sizes"><span>ONE SIZE</span></div><button class="add" data-key="packaging">ADD TO BAG ↗</button></div>
+    </article>
+  </div>
+</section>
+
+<section class="trust-strip" aria-label="Shopping information">
+  <div><b>HEAVYWEIGHT MATERIAL</b><span>DENSE COTTON / BUILT FOR DAILY WEAR</span></div>
+  <div><b>SECURE CHECKOUT</b><span>PAYMENT READY / CONNECT YOUR GATEWAY</span></div>
+  <div><b>SICK STANDARD</b><span>RETURNS & SHIPPING POLICY AT CHECKOUT</span></div>
+</section>
+
+<section class="intro" id="story">
+  <div class="intro-copy"><p class="micro">02 / THE ATTITUDE</p><h2>WEAR<br><em>THE</em><br>FEELING.</h2><p class="lead">SICK IS A BLACK-AND-WHITE STREETWEAR LABEL BUILT AROUND HEAVY FABRICS, SHARP GRAPHICS AND A VISUAL LANGUAGE THAT DOESN'T NEED COLOR TO MAKE NOISE.</p><div class="stats"><div><b>330</b><span>GSM COTTON</span></div><div><b>01</b><span>MONOCHROME<br>LANGUAGE</span></div><div><b>CK</b><span>SECONDARY<br>IDENTITY</span></div></div></div>
+  <div class="intro-image"><img loading="lazy" decoding="async" src="assets/manifesto-back.webp" alt="SICK back graphic campaign"><div class="circle">FEELING<br>SICK?</div></div>
+</section>
+
+<section class="campaign-strip"><div class="campaign-main"><img loading="lazy" decoding="async" src="assets/hero-alternative.webp" alt="SICK campaign alternative"></div><div class="campaign-side"><img loading="lazy" decoding="async" src="assets/campaign-chest-logo.webp" alt="SICK chest logo detail"><p>NO DISTRACTIONS.<br>JUST FORM / FABRIC / ATTITUDE.</p></div></section>
+
+<section class="product-story">
+  <div class="story-photo"><img loading="lazy" decoding="async" src="assets/tee-logo-detail.webp" alt="SICK tee logo detail"></div>
+  <div class="story-copy"><p class="micro">03 / MATERIAL STUDY</p><h2>DETAILS<br><em>MATTER.</em></h2><p class="lead">THE BRAND IS BUILT IN THE PARTS YOU ONLY NOTICE UP CLOSE — WOVEN LABELS, DENSE COTTON, CLEAN PRINTS, AND THE CK MONOGRAM.</p><div class="detail-grid"><img loading="lazy" decoding="async" src="assets/tee-fabric-detail.webp" alt="Dense cotton tee fabric"><img loading="lazy" decoding="async" src="assets/woven-ck.webp" alt="Woven CK label"><img loading="lazy" decoding="async" src="assets/screen-print.webp" alt="Screen print texture"><img loading="lazy" decoding="async" src="assets/neck-label.webp" alt="SICK neck label"></div></div>
+</section>
+
+<section class="hoodie-feature"><div class="hf-copy"><p class="micro">04 / THE CORE HOODIE</p><h2>BUILT<br><em>HEAVY.</em></h2><p class="lead">A CLEAN FRONT. A LOUD BACK. A HEAVY SILHOUETTE. THE CORE HOODIE IS THE EVERYDAY UNIFORM.</p><button class="btn light" data-open="hoodie">VIEW HOODIE <b>↗</b></button></div><div class="hf-grid"><img loading="lazy" decoding="async" src="assets/hoodie-back.webp" alt="SICK hoodie back"><img loading="lazy" decoding="async" src="assets/hoodie-hood-detail.webp" alt="SICK hoodie hood detail"><img loading="lazy" decoding="async" src="assets/hoodie-print-detail.webp" alt="SICK hoodie print detail"></div></section>
+
+<section class="campaign-grid"><div class="cg-copy"><p class="micro">05 / CAMPAIGN 01</p><h2>BLACK<br>IS THE<br><em>MOOD.</em></h2><p>THE CAMERA DOESN'T NEED COLOR. NEITHER DO WE.</p></div><img loading="lazy" decoding="async" src="assets/campaign-full-front.webp" alt="SICK campaign full body front"><img loading="lazy" decoding="async" src="assets/campaign-full-back.webp" alt="SICK campaign full body back"><img loading="lazy" decoding="async" src="assets/campaign-walking.webp" alt="SICK campaign walking"><img loading="lazy" decoding="async" src="assets/campaign-sitting.webp" alt="SICK campaign sitting"></section>
+
+<section class="packaging"><div class="pack-copy"><p class="micro">06 / THE EXPERIENCE</p><h2>FROM<br>PACK<br><em>TO PIECE.</em></h2><p class="lead">EVERY TOUCHPOINT CARRIES THE SAME LANGUAGE — BLACK, WHITE, CLEAN, UNAPOLOGETIC.</p></div><div class="pack-grid"><img loading="lazy" decoding="async" src="assets/packaging-unboxing.webp" alt="SICK packaging unboxing"><img loading="lazy" decoding="async" src="assets/packaging-close.webp" alt="SICK packaging close up"><img loading="lazy" decoding="async" src="assets/packaging-flatlay.webp" alt="SICK packaging flat lay"><img loading="lazy" decoding="async" src="assets/hangtag-detail.webp" alt="SICK hangtag"></div></section>
+
+<section class="journal" id="journal"><div class="head"><div><p class="micro">07 / JOURNAL</p><h2>NOISE<br><em>OFF.</em></h2></div><a href="#newsletter">FOLLOW THE PROCESS ↗</a></div><div class="journal-grid"><article><img loading="lazy" decoding="async" src="assets/journal-monogram.webp" alt="The CK monogram process"><small>PROCESS / 001</small><h3>THE MONOGRAM</h3><p>How the CK mark becomes a compact identity across labels and garments.</p></article><article><img loading="lazy" decoding="async" src="assets/journal-details.webp" alt="SICK construction details"><small>OBJECT / 002</small><h3>EVERY DETAIL COUNTS</h3><p>The labels, packaging and construction details that finish the uniform.</p></article><article><img loading="lazy" decoding="async" src="assets/journal-black-white.webp" alt="SICK black white visual system"><small>VISUAL / 003</small><h3>BLACK / WHITE / NOTHING ELSE</h3><p>A visual system stripped back to what matters.</p></article></div></section>
+
+<section class="napoleon-journal" id="napoleon" aria-labelledby="napoleonTitle">
+  <div class="head">
+    <div><p class="micro">10 / JOURNAL / OUTERWEAR</p><h2 id="napoleonTitle">THE NAPOLEON<br><em>SERIES.</em></h2><p class="section-intro">TWO BLACK INTERPRETATIONS OF MILITARY HERITAGE — REBUILT THROUGH THE SICK STREETWEAR LANGUAGE.</p></div>
+    <span class="journal-mark">SICK / 001 — 002</span>
+  </div>
+  <div class="napoleon-grid">
+    <article class="napoleon-card reveal">
+      <button class="article-open" data-article="officer" aria-label="Read The Officer article">
+        <div class="article-image"><img loading="lazy" decoding="async" src="assets/napoleon-the-officer.webp" alt="SICK The Officer Napoleon Jacket editorial spread"><span>ARTICLE 010 / 01</span><b>READ ↗</b></div>
+        <div class="article-meta"><small>OUTERWEAR / 001</small><h3>THE OFFICER</h3><p>A QUIETER MILITARY STRUCTURE — HIGH COLLAR, CLEAN FRONT, BLACK DENIM AND DISCIPLINED HARDWARE.</p></div>
+      </button>
+    </article>
+    <article class="napoleon-card reveal">
+      <button class="article-open" data-article="commander" aria-label="Read The Commander article">
+        <div class="article-image"><img loading="lazy" decoding="async" src="assets/napoleon-the-commander.webp" alt="SICK The Commander Napoleon Jacket editorial spread"><span>ARTICLE 010 / 02</span><b>READ ↗</b></div>
+        <div class="article-meta"><small>OUTERWEAR / 002</small><h3>THE COMMANDER</h3><p>A SHARPER TAKE ON THE CLASSIC — LAYERED FRONT DETAIL, METAL HARDWARE AND A MORE ASSERTIVE SILHOUETTE.</p></div>
+      </button>
+    </article>
+  </div>
+</section>
+
+<section class="identity"><div class="id-image"><img loading="lazy" decoding="async" src="assets/brand-kit.webp" alt="SICK brand identity board"></div><div class="id-copy"><p class="micro">08 / IDENTITY</p><h2>SICK<br><em>BY DESIGN.</em></h2><img class="ck" src="assets/logo-ck-white.png" alt="CK monogram"><p class="lead">THE WORDMARK CARRIES THE ATTITUDE. THE CK MONOGRAM CARRIES THE IDENTITY. ONE SYSTEM, FROM A BACK PRINT TO A TWO-CENTIMETER LABEL.</p></div></section>
+
+<section class="newsletter" id="newsletter"><p class="micro">09 / JOIN THE CULT</p><h2>STAY<br><em>SICK.</em></h2><p>EARLY ACCESS / LIMITED DROPS / NO SPAM.</p><form id="newsletterForm" novalidate><input type="email" placeholder="ENTER EMAIL ADDRESS" aria-label="Email address" required><button type="submit">JOIN ↗</button></form><div id="success">YOU'RE IN. STAY SICK.</div></section>
+</main>
+
+<div class="mobile-shop" id="mobileShop"><a href="#shop">SHOP DROP 01 <span>↗</span></a></div>
+<footer id="about"><div class="foot-brand"><img src="assets/logo-sick.png" alt="SICK"><p>FEELING SICK?</p></div><div><b>SHOP</b><a href="#shop">ALL PRODUCTS</a><a href="#shop">NEW DROP</a><a href="#shop">GOODS</a></div><div><b>SUPPORT</b><a href="#">SHIPPING</a><a href="#">RETURNS</a><a href="#">CONTACT</a></div><div><b>FOLLOW</b><a href="#">INSTAGRAM ↗</a><a href="#">TIKTOK ↗</a></div><div class="copy">© 2025 SICK STREETWEAR. ALL RIGHTS RESERVED.</div></footer>
+
+<aside class="cart-drawer" id="cartDrawer" aria-hidden="true"><div class="cart-head"><div><p class="micro">BAG / <span id="cartQty">0</span> ITEMS</p><h2>YOUR<br><em>BAG.</em></h2></div><button id="closeCart" aria-label="Close bag">×</button></div><div class="cart-items" id="cartItems"><p class="empty-cart">YOUR BAG IS EMPTY.</p></div><div class="cart-foot"><div><span>SUBTOTAL</span><strong id="cartTotal">IDR 0</strong></div><button class="btn" id="checkoutBtn">CHECKOUT <b>↗</b></button><small>DEMO CHECKOUT — CONNECT PAYMENT / INVENTORY FOR PRODUCTION.</small></div></aside><div class="cart-backdrop" id="cartBackdrop"></div>
+
+<div class="modal" id="modal" aria-hidden="true"><div class="modal-inner"><button class="close" id="closeModal" aria-label="Close product details">×</button><div class="modal-gallery" id="modalGallery"></div><div class="modal-info"><p class="micro">SICK / DROP 01</p><h2 id="modalTitle"></h2><strong id="modalPrice"></strong><p id="modalDesc"></p><div class="modal-size-label">SELECT SIZE</div><div class="modal-sizes" id="modalSizes"></div><button class="btn light" id="modalAdd">ADD TO BAG <b>↗</b></button><div class="modal-notes"><span>HEAVYWEIGHT MATERIAL</span><span>SECURE CHECKOUT</span><span>RETURNS POLICY</span></div></div></div></div>
+<div class="article-modal" id="articleModal" aria-hidden="true"><div class="article-modal-inner"><button class="article-close" id="closeArticle" aria-label="Close article">×</button><div class="article-modal-image"><img id="articleModalImage" src="" alt=""></div><div class="article-modal-copy"><p class="micro" id="articleModalKicker"></p><h2 id="articleModalTitle"></h2><p class="article-modal-deck" id="articleModalDeck"></p><div class="article-modal-body" id="articleModalBody"></div><div class="article-modal-specs" id="articleModalSpecs"></div></div></div></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
